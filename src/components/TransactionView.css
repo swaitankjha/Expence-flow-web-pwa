@@ -1,0 +1,84 @@
+.transaction-view {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--bg-color, #fff);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  border-radius: 8px;
+  color: var(--text-color, #333);
+}
+
+.transaction-view h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.filter-wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-wrapper select {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+thead tr {
+  background-color: var(--primary-color, #4a90e2);
+  color: #fff;
+}
+
+thead th {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-right: 6px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ec971f;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}

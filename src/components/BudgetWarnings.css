@@ -1,0 +1,18 @@
+.budget-warnings {
+    margin: 20px;
+    padding: 20px;
+    background: #ffe4e1;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.2);
+  }
+  
+  .budget-warnings h3 {
+    color: #c0392b;
+    margin-bottom: 10px;
+  }
+  
+  .warning-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  

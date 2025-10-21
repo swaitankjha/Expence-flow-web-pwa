@@ -1,0 +1,31 @@
+/* index.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+:root {
+  --sidebar-bg: #ffffff;
+  --text-color: #212529;
+  --text-muted: #6c757d;
+  --primary-color: #00bcd4;
+  --help-bg: #e0f7fa;
+}
+
+.dark {
+  --sidebar-bg: #1e1e2f;
+  --text-color: #f1f1f1;
+  --text-muted: #aaaaaa;
+  --primary-color: #00bcd4;
+  --help-bg: #263238;
+}
