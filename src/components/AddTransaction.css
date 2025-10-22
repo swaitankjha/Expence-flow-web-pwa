@@ -126,7 +126,7 @@ form select:focus {
   color: white;
 }
 
-/* Custom category slide-in */
+
 .custom-category-slide {
   animation: slideIn 0.3s ease-in-out;
   width: 100%;
@@ -137,7 +137,6 @@ form select:focus {
   color: white;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(15px); }
   to { opacity: 1; transform: translateY(0); }

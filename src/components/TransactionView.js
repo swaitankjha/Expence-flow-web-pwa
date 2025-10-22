@@ -6,7 +6,7 @@ const TransactionView = () => {
   const [transactions, setTransactions] = useState([]);
   const [filter, setFilter] = useState("All");
 
-  // ✅ Fetch all transactions from backend
+  
   useEffect(() => {
     axios
       .get("http://localhost:5000/api/transactions")
@@ -18,7 +18,7 @@ const TransactionView = () => {
       });
   }, []);
 
-  // ✅ Delete transaction
+  
   const handleDelete = (id) => {
     if (window.confirm("Are you sure you want to delete this transaction?")) {
       axios
@@ -32,12 +32,12 @@ const TransactionView = () => {
     }
   };
 
-  // ❌ Placeholder for edit
+  // Placeholder for edit
   const handleEdit = (id) => {
     alert(`Edit functionality for transaction ID ${id} coming soon!`);
   };
 
-  // ✅ Apply filter
+
   const filteredTransactions = transactions.filter((txn) =>
     filter === "All" ? true : txn.Type === filter
   );

@@ -7,9 +7,9 @@ const Chatbot = () => {
   ]);
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
-  const [isSending, setIsSending] = useState(false); // optional loading state
+  const [isSending, setIsSending] = useState(false); 
 
-  // Scroll to bottom on new message
+  
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
